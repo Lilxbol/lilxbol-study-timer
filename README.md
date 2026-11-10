@@ -15,6 +15,7 @@ Built for tracking deep-work sessions, analyzing them, and keeping a daily journ
 - **Daily journal** — a "What I did this day" note attached to every day, saved forever
 - **Task list** — a simple daily to-do with open/done filters
 - **Data never expires** — records, reports and journal entries are kept forever; JSON export/import for backups
+- **Cloud sync** — optional free accounts: your sessions, records, tasks and journal follow you across every device (the app also works fully offline without an account)
 - **Keyboard shortcut** — `Space` to start/stop the timer
 
 Everything is stored locally (localStorage). No accounts, no internet required.
