@@ -1,0 +1,35 @@
+{
+  "name": "lilxbol",
+  "productName": "Lilxbol",
+  "version": "1.0.0",
+  "description": "Personal study timer with sessions, reports, tasks and calendar",
+  "main": "main.js",
+  "author": "AboswBizz",
+  "scripts": {
+    "dist": "electron-builder --win portable --x64"
+  },
+  "devDependencies": {
+    "electron": "^45.2.1",
+    "electron-builder": "^26.18.0"
+  },
+  "build": {
+    "appId": "com.lilxbol.app",
+    "productName": "Lilxbol",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "Lilxbol.html"
+    ],
+    "win": {
+      "target": [
+        "portable"
+      ],
+      "signExecutable": false
+    },
+    "portable": {
+      "artifactName": "Lilxbol.exe"
+    }
+  }
+}
