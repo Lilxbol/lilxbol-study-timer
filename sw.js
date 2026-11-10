@@ -1,5 +1,5 @@
 /* Lilxbol service worker: cache-first app shell; API never cached */
-const CACHE='lilxbol-v2';
+const CACHE='lilxbol-v1';
 self.addEventListener('install',e=>{
   e.waitUntil((async()=>{
     try{
